@@ -1,0 +1,143 @@
+:root{
+    --primary-text-color: #434455;
+    --light-mode-backgrounds: #F4F4FD;
+    --accent-color: #E7E9FC;
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --title-text-color: #2E2F42;
+    --white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    list-style-type: none;
+}
+.link{
+    color: currentcolor;
+    text-decoration: none;
+}
+
+/* Хедер */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--title-text-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-web {
+    color: var(--primary-brand);
+}
+
+.nav-link{
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+
+
+.nav-link:hover, .nav-link:focus{
+    color: var(--pressed-state);
+}
+
+.contact-link {
+    font-style: normal;
+}
+
+.contact-link:hover,.contact-link:focus{
+    color: var(--pressed-state);
+}
+
+/* Секция герйой */
+.section-hero {
+    background-color: var(--title-text-color);
+    text-align: center;
+
+}
+
+.hero-title{
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.button {
+    background-color: var(--primary-brand);
+    color: var(--white-color);
+    cursor: pointer;
+    /* font-size: унаследовать или 16Px */
+    letter-spacing: 0.04em;
+    
+
+}
+
+.button:hover, .button:focus{
+    background-color: var(--pressed-state)
+}
+
+.section-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.title{
+    color: var(--title-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* секция команды */
+.section-team{
+    background-color: var(--light-mode-backgrounds);
+}
+
+/* портфолио секция */
+.portfolio-button {
+    background-color: var(--light-mode-backgrounds);
+    color: var(--primary-brand);
+    cursor: pointer;
+}
+
+.portfolio-button:hover, .portfolio-button:focus {
+    background-color: var(--pressed-state);
+    color: var(--white-color)
+}
+
+
+/* футер */
+.footer{
+    background-color: var(--title-text-color)
+}
+
+.footer p {
+    color: var(--accent-color)
+}
+
+.footer-logo{
+    color: var(--light-mode-backgrounds)
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
