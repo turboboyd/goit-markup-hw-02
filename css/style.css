@@ -91,7 +91,8 @@ body {
     text-align: center;
 }
 
-.title{
+.section-advantages__title, .section-portfolio__title,
+.section-team__title{
     color: var(--title-text-color);
     font-size: 20px;
     font-weight: 500;
